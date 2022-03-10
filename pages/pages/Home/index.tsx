@@ -4,10 +4,10 @@ import * as React from 'react';
 import{ReactNode} from 'react';
 
 type Props = {
-  children?: ReactNode;
-};``
-// @ts-ignore
-const Home = ({ children }) => {
+  children: ReactNode;
+};
+
+const Home = ({ children }:Props) => {
   return (
     <HomeWr>
       <Particle />
