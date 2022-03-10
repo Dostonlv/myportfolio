@@ -41,6 +41,7 @@ const Works = () => {
               <div className="mycard">
                 <div className="visible">
                   <div className="imgwrap">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={v.img} alt="" />
                   </div>
 
