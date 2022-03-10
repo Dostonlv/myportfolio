@@ -31,6 +31,7 @@ const About = () => {
       </p>
       <div className="skills">
         {skills.map((v) => (
+            // eslint-disable-next-line react/jsx-key
           <div className="skill">{v}</div>
         ))}
       </div>
