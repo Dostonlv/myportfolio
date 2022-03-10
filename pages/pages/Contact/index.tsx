@@ -30,6 +30,7 @@ const Contact = () => {
 
       <div className="links">
         {links.map((v, i) => (
+            // eslint-disable-next-line react/jsx-key
           <a href={v.link} target="_blank" rel="noreferrer">
             <div className="skill">{v.title}</div>
           </a>

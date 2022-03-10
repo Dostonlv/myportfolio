@@ -36,6 +36,7 @@ const Works = () => {
       <div className="container">
         <div className="row">
           {works.map((v, i) => (
+              // eslint-disable-next-line react/jsx-key
             <div className="col-md-6 col-sm-12 my-3">
               <div className="mycard">
                 <div className="visible">
