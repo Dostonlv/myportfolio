@@ -20,8 +20,8 @@ const About = () => {
       <h1>About me</h1>
       <p className="text py-2">
         <h2>
-          My name is <span> Doston. </span> <br /> I'm <span> 18</span> years
-          old and I'm a <span>Full Stack developer</span>
+          My name is <span> Doston. </span> <br /> I am <span> 18</span> years
+          old and I am a <span>Full Stack developer</span>
         </h2>
       </p>
 

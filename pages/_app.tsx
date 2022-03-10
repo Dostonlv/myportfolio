@@ -51,25 +51,25 @@ const tabs = ["work", "about", "contact"];
 function App() {
   const [index, setIndex] = useState(0);
   const [index2, setIndex2] = useState(0);
-      const [play, setPlay] = useState(false);
-      const [url, setUrl] = useState("/song.mp3");
-      const audio = new Audio(url);
-
-      const Play = () => {
-        setPlay(true);
-        audio.play();
-      };
+      // const [play, setPlay] = useState(false);
+      // const [url, setUrl] = useState("/song.mp3");
+      // const audio = new Audio(url);
       //
-      const Pause = () => {
-        setPlay(false);
-        audio.pause();
-      };
-
-      useEffect(() => {
-        Play();
-        audio.loop = true;
-        console.log(audio);
-      }, []);
+      // const Play = () => {
+      //   setPlay(true);
+      //   audio.xplay();
+      // };
+      // //
+      // const Pause = () => {
+      //   setPlay(false);
+      //   audio.pause();
+      // };
+      //
+      // useEffect(() => {
+      //   Play();
+      //   audio.loop = true;
+      //   console.log(audio);
+      // }, []);
 
   
   function enter(e: any) {
