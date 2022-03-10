@@ -1,9 +1,9 @@
-import React from "react";
 import Particle from "../../particles";
 import HomeWr from "./HomeWrapper";
+import * as React from 'react';
 
 // @ts-ignore
-const Home = ({ children }) => {
+const Home = ({ children }:Props) => {
   return (
     <HomeWr>
       <Particle />
