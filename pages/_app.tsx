@@ -136,6 +136,7 @@ function App() {
               <Reveal keyframes={customAnimation3}>
                 <div className="row ">
                   {tabs.map((v, i) => (
+                      // eslint-disable-next-line react/jsx-key
                     <div className="col-md-4 col-sm-12 text-center">
                       <button
                         className={`select-btn m-5 ${
